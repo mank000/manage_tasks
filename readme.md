@@ -25,7 +25,9 @@ DELETE http://localhost:8000/tasks/{uuid} Удалить задачу
 ## Автоматические тесты
 
 ```bash
-pytest tests/
+cd backend/
+
+pytest
 ```
 
 ## Документация
